@@ -8,21 +8,21 @@ const ICON_SIZE = 150;
 const ICON_PADDING = 10;
 const SPIN_SPEED = 15;
 const sounds={
-  stop: new Howl({ src: ['./assets/audio/reel-stop.mp3'] }),
-  spin: new Howl({ src: ['./assets/audio/spin.mp3'], loop: true }),
-  win: new Howl({ src: ['./assets/audio/win.mp3'] }),
-  noWin: new Howl({ src: ['./assets/audio/no-win.mp3'] }),
-  bigWin: new Howl({ src: ['./assets/audio/big-win.mp3'] }),
+  stop: new Howl({ src: ['/assets/audio/reel-stop.mp3'] }),
+  spin: new Howl({ src: ['/assets/audio/spin.mp3'], loop: true }),
+  win: new Howl({ src: ['/assets/audio/win.mp3'] }),
+  noWin: new Howl({ src: ['/assets/audio/no-win.mp3'] }),
+  bigWin: new Howl({ src: ['/assets/audio/big-win.mp3'] }),
 }
 const iconsURLs = [
-  './assets/a.png',
-  './assets/b.png',
-  './assets/f.png',
-  './assets/g.png',
-  './assets/h.png',
-  './assets/j.png',
-  './assets/l.png',
-  './assets/n.png',
+  '/assets/a.png',
+  '/assets/b.png',
+  '/assets/f.png',
+  '/assets/g.png',
+  '/assets/h.png',
+  '/assets/j.png',
+  '/assets/l.png',
+  '/assets/n.png',
 ];
 
 let app;
